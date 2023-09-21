@@ -1,8 +1,8 @@
 public class PersonalComputer extends Product {
 
-    private ComputerCase computerCase;
-    private Monitor monitor;
-    private Motherboard motherboard;
+    private final ComputerCase computerCase;
+    private final Monitor monitor;
+    private final Motherboard motherboard;
 
     public PersonalComputer(String model, String manufacturer,
                             ComputerCase computerCase, Monitor monitor,
